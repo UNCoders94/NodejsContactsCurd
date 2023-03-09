@@ -11,7 +11,7 @@ const {
 
 
 //Routes 
-router.route("/").get(getContacts).post (createContacts);
+router.route("/").get(getContacts).post(createContacts);
 router.route("/:id").get(getContact).put(updateContacts).delete(deleteContacts);
 
 
